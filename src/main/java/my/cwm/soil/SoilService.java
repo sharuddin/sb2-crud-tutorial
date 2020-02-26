@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class SoilService {
 
-    String[] columns = { "code", "description", "symbol", "category" };
+    String[] columns = { "description", "symbol", "category" };
     private final SoilRepository soilRepository;
 
     public SoilService(final SoilRepository soilRepository) {
