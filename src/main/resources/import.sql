@@ -1,4 +1,4 @@
-INSERT INTO `soil` (`code`, `symbol`, `description`, `category`)
+INSERT INTO `soil` (`symbol`, `description`, `category`)
 VALUES
   ('0004', 'ASN (AHN)', 'ASAHAN', ''),
   ('0006', 'BDK', 'BADAK', ''),

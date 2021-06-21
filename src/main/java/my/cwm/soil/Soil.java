@@ -17,8 +17,6 @@ public class Soil {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String code;
     @NotNull
     private String description;
     @NotNull
