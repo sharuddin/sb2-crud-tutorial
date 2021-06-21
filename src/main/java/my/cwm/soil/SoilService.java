@@ -48,6 +48,7 @@ public class SoilService {
     public void delete(final Long id) {
         this.soilRepository.deleteById(id);
     }
+   
 
     private Specification getFilterSpecification(DataTablesInput dti) {
         return new Specification() {

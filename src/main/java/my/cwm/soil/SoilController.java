@@ -49,7 +49,7 @@ public class SoilController {
         return soilService.getSoilById(id);
     }
 
-    @PostMapping("")
+    @PostMapping("/")
     @Transactional
     public Soil save(@Valid @RequestBody Soil soil) {
         return soilService.save(soil);
